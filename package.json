@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@react-three/xr": "2.0.1",
-    "@types/babel__traverse": "7.17.1",
     "@types/three": "0.126.0",
     "apollo-client": "^2.6.8",
     "react": "^16.12.0",
@@ -26,6 +25,9 @@
     "@types/node": "^13.9.8",
     "@types/react": "^16.9.31",
     "@types/react-dom": "^16.9.4",
+    "@types/babel__core": "7.1.19",
+    "@types/babel__traverse": "7.17.1",
+    "@types/hoist-non-react-statics": "3.3.1",
     "apollo-cache-inmemory": "^1.6.5",
     "react-error-overlay": "^6.0.9",
     "typescript": "3.9.7"
@@ -47,5 +49,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "resolutions": {
+    "@types/babel__core": "7.1.19",
+    "@types/babel__traverse": "7.17.1",
+    "@types/hoist-non-react-statics": "3.3.1"
   }
 }

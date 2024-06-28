@@ -1,10 +1,16 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2017",
+    "jsx": "react",
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "es2017",
+      "es2019",
+      "DOM",
+      "ES6",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2016.Array.Include",
+      "es2018.promise"
     ],
     "allowJs": true,
     "skipLibCheck": true,
@@ -17,9 +23,19 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react"
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ],
+    "types": [
+      "node",
+      "jest"
+    ]
   },
   "include": [
     "src"
-  ]
+  ],
+  "typeAcquisition": {
+    "enable": false
+  }
 }
