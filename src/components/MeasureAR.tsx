@@ -162,7 +162,7 @@ const CanvasInner = () => {
     const [measurements, setMeasurements] = useState<string[] | any[]>([])
 
     const currentPoint = reticleRef.current
-    let vector
+    let vector: THREE.Vector3
 
     useHitTest((hitMatrix: THREE.Matrix4, hit: THREE.XRHitTestResult) => {
         if (currentPoint) {
@@ -171,8 +171,6 @@ const CanvasInner = () => {
                 new THREE.Quaternion().setFromEuler(currentPoint.rotation),
                 currentPoint.scale
             )
-
-            console.log('object :>> ', object)
 
             const lastMeasurement = measurements[measurements.length - 1]
 
