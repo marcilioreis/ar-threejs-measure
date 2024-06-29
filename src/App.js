@@ -1,10 +1,10 @@
 import React from 'react'
-import Measure from './components/Measure'
+import MeasureXR from './components/MeasureXR'
 
 function App() {
     return (
         <div id="canvas-container">
-            <Measure></Measure>
+            <MeasureXR></MeasureXR>
         </div>
     )
 }

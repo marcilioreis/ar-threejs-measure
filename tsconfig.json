@@ -28,8 +28,7 @@
       "typings"
     ],
     "types": [
-      "node",
-      "jest"
+      "node"
     ]
   },
   "include": [

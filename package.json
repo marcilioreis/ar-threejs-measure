@@ -8,6 +8,7 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "@juggle/resize-observer": "^3.4.0",
     "@react-three/xr": "2.0.1",
     "@types/three": "0.126.0",
     "apollo-client": "^2.6.8",
